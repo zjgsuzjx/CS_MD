@@ -64,12 +64,21 @@
     $('.to-top').toTop();
   </script>
 <!--  评论区  -->
-  <script>
-  window.$docsify = {
-    disqus: 'zjgsuzjx'
-  }
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: 'cc8cf5cb0897add673d7',
+    clientSecret: 'd4bd44ff113f7173a0236c1e37a4bf3fb8f1a1cb',
+    repo: 'CS_MD',
+    owner: 'zjgsuzjx',
+    admin: ['zjgsuzjx'],
+    // facebook-like distraction free mode
+    distractionFreeMode: false
+  })
 </script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
 </body>
 
 </html>
