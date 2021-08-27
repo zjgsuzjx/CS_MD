@@ -13,8 +13,7 @@
     line-height: 1.2;">一个记录CS自学者的学习过程。 --ZJX</div>
 
 
-
-[Gitee](https://gitee.com/veal98/CS-Wiki) [开始阅读](/README)
+[GitHub](https://github.com/zjgsuzjx/CS_MD) [开始阅读](/README)
 
 
 
