@@ -1263,7 +1263,7 @@ mongoose.connection.on('open', function (err) {
 
 > 没有数据库时，会自动创建，其中`__v`是mongo自带的。成功后的图如下：
 
-<img src="https://img.zjgsuzjx.top/img/images/2021/07/09/c77bdcb5a41f0d06007c19080ab0c047.png" alt="c77bdcb5a41f0d06007c19080ab0c047.png" border="0" />
+<img src="https://img.zjgsuzjx.top/img/images/2021/07/09/c77bdcb5a41f0d06007c19080ab0c011.png" alt="c77bdcb5a41f0d06007c19080ab0c011.png" border="0" />
 
 > 之后记得右键刷新数据库。
 
